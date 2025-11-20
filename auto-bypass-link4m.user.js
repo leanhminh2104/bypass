@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Auto Bypass Link4m + Link2m
 // @description  Menu quản lý Auto Bypass Link4m + Link2m
-// @require      https://raw.githubusercontent.com/leanhminh2104/Speep-Wed-By-LAMDev/refs/heads/main/speep-wed-by-lamdev-v3.js
-// @updateURL   https://raw.githubusercontent.com/leanhminh2104/Speep-Wed-By-LAMDev/refs/heads/main/speep-wed-by-lamdev-v3.js
-// @downloadURL https://raw.githubusercontent.com/leanhminh2104/Speep-Wed-By-LAMDev/refs/heads/main/speep-wed-by-lamdev-v3.js
+// @require      https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m-v1.5.js
+// @updateURL    https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m-v1.5.js
+// @downloadURL  https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m-v1.5.js
 // @namespace    http://tampermonkey.net/
 // @version      1.5
 // @author       LAMDev - dichvusale.io.vn
