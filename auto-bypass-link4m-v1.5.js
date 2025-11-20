@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name         Auto Bypass Link4m + Link2m Premium
+// @name         Auto Bypass Link4m
 // @namespace    http://tampermonkey.net/
 // @version      2.0
-// @description  Auto Bypass Link4m + Link2m - Instant Execution & Premium UI
+// @description  Auto Bypass Link4m - Instant Execution & Premium UI
 // @author       LAMDev - dichvusale.io.vn
 // @match        *://link4m.com/go/*
-// @match        *://2m.com/go/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
