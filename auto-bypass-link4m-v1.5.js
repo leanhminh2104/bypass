@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Bypass Link4m + Link2m
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.5
 // @description  Auto Bypass Link4m + Link2m - Clean & Responsive
 // @author       LAMDev - dichvusale.io.vn
 // @match        *://link4m.com/go/*
@@ -39,7 +39,7 @@
                 border: 1px solid var(--lm-border, #333);
                 line-height: 1.4;
             }
-            
+
             @media (max-width: 768px) {
                 #lm-bypass-overlay {
                     right: 10px;
@@ -49,7 +49,7 @@
                     min-width: auto;
                 }
             }
-            
+
             @media (prefers-color-scheme: light) {
                 #lm-bypass-overlay {
                     --lm-bg: #ffffff;
@@ -57,7 +57,7 @@
                     --lm-border: #e0e0e0;
                 }
             }
-            
+
             @media (prefers-color-scheme: dark) {
                 #lm-bypass-overlay {
                     --lm-bg: #1a1a1a;
@@ -65,7 +65,7 @@
                     --lm-border: #333;
                 }
             }
-            
+
             .lm-spinner {
                 width: 20px;
                 height: 20px;
@@ -75,11 +75,11 @@
                 animation: lm-spin 1s linear infinite;
                 flex: 0 0 20px;
             }
-            
-            @keyframes lm-spin { 
-                to { transform: rotate(360deg); } 
+
+            @keyframes lm-spin {
+                to { transform: rotate(360deg); }
             }
-            
+
             .lm-icon {
                 width: 20px;
                 height: 20px;
@@ -89,18 +89,18 @@
                 justify-content: center;
                 font-size: 16px;
             }
-            
+
             #lm-title {
                 font-weight: 600;
                 font-size: 15px;
                 margin-bottom: 2px;
             }
-            
+
             #lm-sub {
                 opacity: 0.8;
                 font-size: 13px;
             }
-            
+
             @media (prefers-color-scheme: light) {
                 .lm-spinner {
                     --lm-spinner: rgba(0,0,0,0.2);
@@ -130,7 +130,7 @@
         const titleEl = document.getElementById('lm-title');
         const subEl = document.getElementById('lm-sub');
         const ov = document.getElementById('lm-bypass-overlay');
-        
+
         if (titleEl) titleEl.innerHTML = icon ? `${icon} ${title}` : title;
         if (subEl) subEl.textContent = sub;
         if (ov) {
@@ -179,7 +179,7 @@
                 --lm-button-text: #ffffff;
                 --lm-button-hover: #0056b3;
             `;
-            
+
             // Base styles that work for both light and dark modes
             const baseCardStyle = `
                 ${cssVars}
@@ -320,7 +320,7 @@
                     a.innerHTML = `Hỗ trợ & Báo lỗi`;
                     a.setAttribute('style', buttonStyle);
                     a.classList.add('lm-button');
-                    
+
                     // Simple hover effect
                     a.addEventListener('mouseenter', function() {
                         this.style.opacity = '0.9';
@@ -328,7 +328,7 @@
                     a.addEventListener('mouseleave', function() {
                         this.style.opacity = '1';
                     });
-                    
+
                     didReplace = true;
                 }
             }
