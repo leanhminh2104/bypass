@@ -7,7 +7,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.5
 // @author       LAMDev - dichvusale.io.vn
-// @match        *://*/*
+// @match        *://link4m.com/go/*
+// @match        *://2m.com/go/*
 // @grant        none
 // @icon         https://i.postimg.cc/3JQz6v9Y/logo-tr-n.png
 // ==/UserScript==
