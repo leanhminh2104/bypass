@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         link4m: Auto Bypass v3
+// @name         Auto Bypass Link4m + Link2m
 // @namespace    http://tampermonkey.net/
-// @version      3.0
-// @description  Tự động bypass link4m
+// @version      1.5
+// @description  Auto Bypass Link4m + Link2m
 // @author       LAMDev - dichvusale.io.vn
-// @match        https://link4m.com/go/*
+// @match        *://link4m.com/go/*
+// @match        *://2m.com/go/*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
