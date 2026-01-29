@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Auto Bypass Link4m
-// @description  Menu quản lý Auto Bypass Link4m
+// @name         Auto Bypass Link4m & Cloudflare
+// @description  Auto Bypass Link4m & Cloudflare
 // @require      https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m&cloudflare-v3.0.js
 // @updateURL    https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m&cloudflare-v3.0.js
 // @downloadURL  https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m&cloudflare-v3.0.js
