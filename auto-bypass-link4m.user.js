@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Auto Bypass Link4m
 // @description  Menu quản lý Auto Bypass Link4m
-// @require      https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m-v1.5.js
-// @updateURL    https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m-v1.5.js
-// @downloadURL  https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m-v1.5.js
+// @require      https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m&cloudflare-v3.0.js
+// @updateURL    https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m&cloudflare-v3.0.js
+// @downloadURL  https://raw.githubusercontent.com/leanhminh2104/bypass/refs/heads/link4m/auto-bypass-link4m&cloudflare-v3.0.js
 // @namespace    http://tampermonkey.net/
 // @version      1.5
 // @author       LAMDev - dichvusale.io.vn
